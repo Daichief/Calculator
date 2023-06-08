@@ -1,0 +1,13 @@
+# 忽略当前目录下的
+
+Debug/
+Release/
+.vs
+
+#不忽略文件
+!*.sln
+!*.vcxproj
+!*filters
+
+#忽略所有.user结尾的
+*.user
